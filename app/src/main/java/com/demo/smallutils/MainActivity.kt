@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import com.smallcake.utils.CDTimer
+import com.smallcake.utils.ToastUtil
 import com.smallcake.utils.buildCDTimer
 import com.smallcake.utils.buildSpannableString
 import com.smallcake.utils.showToast
@@ -17,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         val speedChartView = findViewById<SpeedChartView>(R.id.speed_chart)
         val cbTimer = textView.buildCDTimer()
         textView.buildSpannableString(true) {
-            addText("你好")
-            addText("World!"){
+            addText("你好11")
+            addText("World1!"){
                 isItalic = true
                 isBold = true
                 textColor = Color.RED
@@ -28,8 +29,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
         speedChartView.setProgress(80f)
-
-
-
+        ToastUtil.showShort("nihaoua")
     }
 }
