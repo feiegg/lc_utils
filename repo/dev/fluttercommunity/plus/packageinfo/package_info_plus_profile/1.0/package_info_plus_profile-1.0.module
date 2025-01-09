@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.packageinfo",
+    "module": "package_info_plus_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_profile-1.0.aar",
+          "url": "package_info_plus_profile-1.0.aar",
+          "size": 7974,
+          "sha512": "6990d4704049282c505f824d51babd90f74f22e4987c9f07f3747c953d84a94f201fda8509c656c67a5bb254504eb42f41a72cf906905c356c508f0047d629bc",
+          "sha256": "dd40c9022773086cce54b8304106eb7e9fe7da0c54573339faab1e3f7009e79e",
+          "sha1": "eee9d4e24791d99e7e64d05e7763c25340b69d3d",
+          "md5": "df44f5afbfddc0fd90d2ac417c39db9f"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "package_info_plus_profile-1.0.aar",
+          "url": "package_info_plus_profile-1.0.aar",
+          "size": 7974,
+          "sha512": "6990d4704049282c505f824d51babd90f74f22e4987c9f07f3747c953d84a94f201fda8509c656c67a5bb254504eb42f41a72cf906905c356c508f0047d629bc",
+          "sha256": "dd40c9022773086cce54b8304106eb7e9fe7da0c54573339faab1e3f7009e79e",
+          "sha1": "eee9d4e24791d99e7e64d05e7763c25340b69d3d",
+          "md5": "df44f5afbfddc0fd90d2ac417c39db9f"
+        }
+      ]
+    }
+  ]
+}

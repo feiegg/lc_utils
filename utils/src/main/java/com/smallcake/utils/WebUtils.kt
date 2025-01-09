@@ -97,7 +97,7 @@ object WebUtils {
             cacheMode = WebSettings.LOAD_NO_CACHE
             domStorageEnabled = true
             databaseEnabled = true
-            setAppCacheEnabled(true)
+//            setAppCacheEnabled(true)
             allowFileAccess = true
             savePassword = true
             setSupportZoom(true)

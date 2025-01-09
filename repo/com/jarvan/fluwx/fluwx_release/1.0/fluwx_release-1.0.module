@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jarvan.fluwx",
+    "module": "fluwx_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "com.tencent.mm.opensdk",
+          "module": "wechat-sdk-android",
+          "version": {
+            "requires": "6.8.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluwx_release-1.0.aar",
+          "url": "fluwx_release-1.0.aar",
+          "size": 88047,
+          "sha512": "501ad74ebe1f6668021d18545d305c649f1970ed00f2d246917000d4696c929fefd1503af5f825053c4d8cfe5c0e0f8e58a9de2de90dbfbcad46462397ae8000",
+          "sha256": "155a315cf9ffa75fe0cab5be641dfdc8a671e881cb195be4743783a95b9ce66a",
+          "sha1": "c8bea723e4dbfec8488b3726ccc9b74e04af0d80",
+          "md5": "e2eb662b02786b4d8a793096701d59ad"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "com.tencent.mm.opensdk",
+          "module": "wechat-sdk-android",
+          "version": {
+            "requires": "6.8.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "id.zelory",
+          "module": "compressor",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fluwx_release-1.0.aar",
+          "url": "fluwx_release-1.0.aar",
+          "size": 88047,
+          "sha512": "501ad74ebe1f6668021d18545d305c649f1970ed00f2d246917000d4696c929fefd1503af5f825053c4d8cfe5c0e0f8e58a9de2de90dbfbcad46462397ae8000",
+          "sha256": "155a315cf9ffa75fe0cab5be641dfdc8a671e881cb195be4743783a95b9ce66a",
+          "sha1": "c8bea723e4dbfec8488b3726ccc9b74e04af0d80",
+          "md5": "e2eb662b02786b4d8a793096701d59ad"
+        }
+      ]
+    }
+  ]
+}

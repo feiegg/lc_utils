@@ -1,8 +1,14 @@
 pluginManagement {
     repositories {
-        gradlePluginPortal()
-        google()
+        google{
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -10,9 +16,16 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-//        maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
+        maven {
+            url 'E:\\FlutterWork\\FlutterDemoTest\\lc_utils\\repo'
+        }
+        maven {
+            url "https://storage.googleapis.com/download.flutter.io"
+        }
     }
 }
 rootProject.name = "tanhongwuUtils"
 include ':app'
 include ':utils'
+include ':fcsdk'

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "vn.hunghd.flutter.plugins.imagecropper",
+    "module": "image_cropper_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_cropper_debug-1.0.aar",
+          "url": "image_cropper_debug-1.0.aar",
+          "size": 26368,
+          "sha512": "0d186ef59f556f0925a6e4f98219d86a42def211395da7f094fcc23c486fc167a496fbcc9cdaada612d0b4065c5481af44a88082d083d367e8be7591a3324d50",
+          "sha256": "3e434c20cf1041e374b05adefa086d6ced61aede2627a9529402d87efd2b4c22",
+          "sha1": "c428850e37b02be73182666aa4930aeb0227a82a",
+          "md5": "5ca11c57f2efc1a8448ef5b49b0ffdaf"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "com.github.yalantis",
+          "module": "ucrop",
+          "version": {
+            "requires": "2.2.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image_cropper_debug-1.0.aar",
+          "url": "image_cropper_debug-1.0.aar",
+          "size": 26368,
+          "sha512": "0d186ef59f556f0925a6e4f98219d86a42def211395da7f094fcc23c486fc167a496fbcc9cdaada612d0b4065c5481af44a88082d083d367e8be7591a3324d50",
+          "sha256": "3e434c20cf1041e374b05adefa086d6ced61aede2627a9529402d87efd2b4c22",
+          "sha1": "c428850e37b02be73182666aa4930aeb0227a82a",
+          "md5": "5ca11c57f2efc1a8448ef5b49b0ffdaf"
+        }
+      ]
+    }
+  ]
+}

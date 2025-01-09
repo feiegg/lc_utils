@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jarvan.tobias",
+    "module": "tobias_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tobias_release-1.0.aar",
+          "url": "tobias_release-1.0.aar",
+          "size": 24656,
+          "sha512": "e4effddde942bf8a8867fa46d6e91f439592cd15bfa0cd9ac1974cec2b68badc74c0d1265fcb938b8c015042cde462d1e08b29caaa992d8df1a1bb570b02822c",
+          "sha256": "b9c7c750f5401b0c269dad7695027bdd989de783ac2a15b47448f7b524fee4c7",
+          "sha1": "bffc4bc3537c39f28f067a784202cbbed1caa2cf",
+          "md5": "90226972ba2184f2ab4cc38ce88c4cc3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "com.alipay.sdk",
+          "module": "alipaysdk-android",
+          "version": {
+            "requires": "15.8.17"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tobias_release-1.0.aar",
+          "url": "tobias_release-1.0.aar",
+          "size": 24656,
+          "sha512": "e4effddde942bf8a8867fa46d6e91f439592cd15bfa0cd9ac1974cec2b68badc74c0d1265fcb938b8c015042cde462d1e08b29caaa992d8df1a1bb570b02822c",
+          "sha256": "b9c7c750f5401b0c269dad7695027bdd989de783ac2a15b47448f7b524fee4c7",
+          "sha1": "bffc4bc3537c39f28f067a784202cbbed1caa2cf",
+          "md5": "90226972ba2184f2ab4cc38ce88c4cc3"
+        }
+      ]
+    }
+  ]
+}

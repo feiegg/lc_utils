@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fluttercommunity.plus.wakelock",
+    "module": "wakelock_plus_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_plus_debug-1.0.aar",
+          "url": "wakelock_plus_debug-1.0.aar",
+          "size": 19172,
+          "sha512": "38e45b134297a7a8997761eb28c444f9ff449a2a58777fdace68810a25b7a264dd87d89ea75c879077d322b16e17c37683d781d8d454696a9d8afa554581270d",
+          "sha256": "0c028a3926cd1b1bdb2d3268a3f6114a6995e2ec7f1ad0b7fe777db99c723aca",
+          "sha1": "33c05a5439627b29b9065d45f1d6c5122e50d26c",
+          "md5": "38e7694b08cec9f94d4c3007b8d883ed"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c4cd48e186460b32d44585ce3c103271ab676355"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "dev.fluttercommunity.plus.packageinfo",
+          "module": "package_info_plus_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wakelock_plus_debug-1.0.aar",
+          "url": "wakelock_plus_debug-1.0.aar",
+          "size": 19172,
+          "sha512": "38e45b134297a7a8997761eb28c444f9ff449a2a58777fdace68810a25b7a264dd87d89ea75c879077d322b16e17c37683d781d8d454696a9d8afa554581270d",
+          "sha256": "0c028a3926cd1b1bdb2d3268a3f6114a6995e2ec7f1ad0b7fe777db99c723aca",
+          "sha1": "33c05a5439627b29b9065d45f1d6c5122e50d26c",
+          "md5": "38e7694b08cec9f94d4c3007b8d883ed"
+        }
+      ]
+    }
+  ]
+}
