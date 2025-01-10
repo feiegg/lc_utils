@@ -20,8 +20,9 @@ dependencyResolutionManagement {
 //        maven {
 //            url 'E:\\FlutterWork\\FlutterDemoTest\\lc_utils\\repo'
 //        }
+//        maven { url "/repo" }
         maven {
-            url "/repo"
+            url "https://wxapp.feiegg.com/download/repo"
         }
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
