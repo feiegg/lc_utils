@@ -17,15 +17,19 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+//        maven {
+//            url 'E:\\FlutterWork\\FlutterDemoTest\\lc_utils\\repo'
+//        }
         maven {
-            url 'E:\\FlutterWork\\FlutterDemoTest\\lc_utils\\repo'
+            url "/repo"
         }
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
         }
+        mavenLocal() // 添加本地Maven仓库
     }
 }
-rootProject.name = "tanhongwuUtils"
+rootProject.name = "lc_utils"
 include ':app'
 include ':utils'
 include ':fcsdk'
