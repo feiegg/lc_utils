@@ -20,16 +20,16 @@ dependencyResolutionManagement {
 //        maven {
 //            url 'E:\\FlutterWork\\FlutterDemoTest\\lc_utils\\repo'
 //        }
-//        maven {
-//            url "/repo"
-//        }
-//        maven {
-//            url "https://storage.googleapis.com/download.flutter.io"
-//        }
+        maven {
+            url "/repo"
+        }
+        maven {
+            url "https://storage.googleapis.com/download.flutter.io"
+        }
         mavenLocal() // 添加本地Maven仓库
     }
 }
 rootProject.name = "lc_utils"
 include ':app'
 include ':utils'
-//include ':fcsdk'
+include ':fcsdk'
